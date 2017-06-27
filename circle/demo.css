@@ -1,0 +1,15 @@
+@charset "utf-8";
+.demo{
+	width: 350px;
+	height: 162px;
+	border-radius: 5px;
+	position: relative;
+	display:inline-block;
+	float: left;
+	margin-left:20px;
+	background: rgba(0,255,102,0.5);
+	background: linear-gradient(top,#00a,#00a,#00a);
+	background: -moz-linear-gradient(top,#0F6,#26b,#0F6);
+	background: -webkit-linear-gradient(top,#0af,#049);
+	background: -o-linear-gradient(top,#0af,#049);
+	}

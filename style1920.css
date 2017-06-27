@@ -1,0 +1,221 @@
+@charset "utf-8";
+@media only screen  
+and (min-width : 1900px) {  
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+.navigator{
+	background: rgba(255,255,255,0.1);
+	border-bottom: 1px rgb(214,214,214) solid;
+	position: fixed;
+	z-index: 100;
+	left: 50%;
+	width: 1000px;
+	margin-left: -500px;
+	}
+.title{
+	float: left;
+	}
+.title_name{
+	font-family: simHei;
+	line-height:113px;
+	font-size:56px;
+	}
+.title_position{
+	margin-left:38px;
+	line-height:113px;
+	font-size:31px;
+	color: #888;
+	}
+.contact{
+	position: absolute;
+	top:63px;
+	right:13px;
+	}
+.contact .phone{
+	float: left;
+	background-image: url("img/icon-title.png");
+	background-position: 0px 0px;
+	background-repeat: repeat-y;
+	background-size: 27px auto;
+	background-clip: border-box;
+	margin-right: 12px;
+	}
+.contact .phone:after{
+	display: block;
+	font-size: 15px;
+	content: "13261539113";
+	line-height: 27px;
+	margin-left: 33px;
+	}
+.contact .email{
+	float: left;
+	background-image: url("img/icon-title.png");
+	background-position: 0px -163px;
+	background-repeat: repeat-y;
+	background-size: 27px auto;
+	background-clip: content-box;
+	margin-right: 12px;
+	}
+.contact .email .emaillink{
+	display: block;
+	font-size: 15px;
+	color: black;
+	line-height: 27px;
+	margin-left: 33px;
+	}
+.contact .blog{
+	background: -ms-linear-gradient(top, #099,  #0BB);        /* IE 10 */
+	background:-moz-linear-gradient(top,#099,#0BB);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#099), to(#0BB));/*谷歌*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#0BB));      
+	background: -webkit-linear-gradient(top, #099, #0BB);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #099, #0BB);  /*Opera 11.10+*/
+	float: left;
+	border-radius: 4px;
+	width: 63px;
+	height: 27px;
+	line-height: 27px;
+	font-size: 15px;
+	color: white;
+	}
+	
+
+.privateinfo{
+	position: absolute;
+	left: 1000px;
+	width:250px;
+	height:1250px;
+	background: rgba(37,70,101,1);
+	font-size: 19px;
+	color:white;
+	}
+.privateinfo .header{
+	display: block;
+	margin: 63px auto;
+	width: 100px;
+	}
+.privateinfo .details{
+	display: block;
+	margin:25px auto;
+	width:188px;
+	line-height: 60px;
+	}	
+.privateinfo .skill{
+	text-align: right;
+	}
+.privateinfo .skillline{
+	display: inline-block;
+	margin-top:15px;
+	background: white;
+	height: 6px;
+	float: left;
+	}
+.privateinfo .js{
+	width: 63px;
+	}
+.privateinfo .html{
+	width: 25px;
+	}
+.privateinfo .css{
+	width: 50px;
+	}
+.privateinfo .php{
+	width: 38px;
+	}
+.privateinfo .details .interest{
+	margin-top: 38px
+	}
+
+.education{
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 125px;
+	background: #EEEEEE;
+	}
+.education .edutitle{
+	background-image: url("img/edu.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: 37px auto;
+	background-clip: content-box;
+	}
+.education .edutitle:after{
+	content: "教育背景";
+	display: block;
+	margin-left: 68px;
+	font-size: 25px;
+	line-height: 38px;
+	}
+.education .educontent{
+	margin-top: 38px;
+	font-family: KaiTi;
+	font-size: 20px;
+	}
+	
+	
+.post{
+	width: 1000px;
+	margin: 0px auto;
+	background: #EEE;
+	}	
+.post .posttitle{
+	margin-top: 25px;
+	background-image: url("img/shijian.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: 38px auto;
+	background-clip: content-box;
+	}
+.post .posttitle:after{
+	content: "任职、荣誉、实践";
+	display: block;
+	margin-left: 68px;
+	font-size: 35px;
+	line-height: 38px;
+	}
+.post .postcontent{
+	margin-top: 38px;
+	font-family: KaiTi;
+	font-size: 20px;
+	}
+.project{
+	width: 1000px;
+	background: #EEE;
+	margin: 0px auto;
+	}
+.project .projecttitle{
+	margin-top: 25px;
+	background-image: url("img/shijian.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: 38px auto;
+	background-clip: content-box;
+	}
+.project .projecttitle:after{
+	content: "项目经历";
+	display: block;
+	margin-left: 68px;
+	font-size: 35px;
+	line-height: 38px;
+	}
+.project .section{
+	padding: 32px 12px;
+	border-bottom: 2px rgb(200,200,200) dashed;
+	}
+.project .section .icon img{
+	float:left;
+	width:438px;
+	height:202px;
+	margin-left: 25px;
+	border-radius: 6px;
+	background: #666;
+	}
+.project .section .description{
+	float:left;
+	margin-left: 25px;
+	color
+	}
+}

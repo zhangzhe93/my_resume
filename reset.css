@@ -1,0 +1,15 @@
+@charset "utf-8";
+*{
+	margin:0;
+	}
+ul{
+	list-style-type: none;
+	}
+a{
+	text-decoration:none;
+	background-color: transparent;
+	color:white;
+	}
+.black{
+	color: black;
+	}
